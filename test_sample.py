@@ -6,3 +6,6 @@ def test_returns_num():
 
 def test_when_divisible_by_three_return_fizz():
     assert sample.FizzBuzz(9) == "Fizz"
+
+def test_when_divisible_by_five_return_buzz():
+    assert sample.FizzBuzz(10) == "Buzz"
