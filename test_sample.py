@@ -9,3 +9,6 @@ def test_when_divisible_by_three_return_fizz():
 
 def test_when_divisible_by_five_return_buzz():
     assert sample.FizzBuzz(10) == "Buzz"
+
+def test_when_divisible_by_five_and_three_return_fizzbuzz():
+    assert sample.FizzBuzz(15) == "FizzBuzz"
